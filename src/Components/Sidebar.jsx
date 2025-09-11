@@ -13,7 +13,7 @@ const Sidebar = () => {
   const [activeSubmenu, setActiveSubmenu] = useState(null)
 
   const menuItems = [
-    { name: "Dashboard", path: "/dashboard", icon: <FaHome className="text-lg" /> },
+    { name: "Dashboard", path: "/", icon: <FaHome className="text-lg" /> },
     { name: "Users", path: "/users", icon: <FaUser className="text-lg" /> },
     { 
       name: "Products", 

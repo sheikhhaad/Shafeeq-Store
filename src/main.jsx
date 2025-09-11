@@ -15,7 +15,7 @@ let router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/dashboard",
+        path: "/",
         element: <Dashboard />,
       },
       {
